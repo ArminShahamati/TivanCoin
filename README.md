@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TivanCoin
 # tivancoin - a cryptocurrency implementation in less than 1500 lines of code
 
