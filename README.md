@@ -1,10 +1,11 @@
+<<<<<<< HEAD
 # TivanCoin
 # tivancoin - a cryptocurrency implementation in less than 1500 lines of code
 
 [![Build Status](https://travis-ci.org/conradoqg/tivancoin.svg?branch=master)](https://travis-ci.org/conradoqg/tivancoin) [![Coverage Status](https://coveralls.io/repos/github/conradoqg/tivancoin/badge.svg?branch=master)](https://coveralls.io/github/conradoqg/tivancoin?branch=master)
 
 ### Motivation
-Cryptocurrencies and smart-contracts on top of a blockchain aren't the most trivial concepts to understand, things like wallets, addresses, block proof-of-work, transactions and their signatures, make more sense when they are in a broad context. Inspired by [naivechain](https://github.com/lhartikk/naivechain), this project is an attempt to provide as concise and simple an implementation of a cryptocurrency as possible.
+Cryptocurrencies and smart-contracts on top of a blockchain aren't the most trivial concepts to understand, things like wallets, addresses, block proof-of-work, transactions and their signatures, make more sense when they are in a broad context. Inspired by [TivanChain](https://github.com/lhartikk/TivanChain), this project is an attempt to provide as concise and simple an implementation of a cryptocurrency as possible.
 
 ### What is cryptocurrency
 [From Wikipedia](https://en.wikipedia.org/wiki/Cryptocurrency) : A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange using cryptography to secure the transactions and to control the creation of additional units of the currency.
@@ -22,7 +23,7 @@ Cryptocurrencies and smart-contracts on top of a blockchain aren't the most triv
 * Addresses creation using a deterministic approach [EdDSA](https://en.wikipedia.org/wiki/EdDSA)
 * Data is persisted to a folder
 
-> Naivechain uses websocket for p2p communication, but it was dropped to simplify the understanding of message exchange. It is relying only on REST communication.
+> TivanChain uses websocket for p2p communication, but it was dropped to simplify the understanding of message exchange. It is relying only on REST communication.
 
 #### Components communication
 ![Components communication](doc/components.png)
@@ -109,7 +110,7 @@ A transaction inside a block is valid if:
 4. The transaction isn't already in the blockchain
 5. All input transactions are unspent in the blockchain.
 
-You can read this [post](https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54#.dttbm9afr5) from [naivechain](https://github.com/lhartikk/naivechain) for more details about how the blockchain works.
+You can read this [post](https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54#.dttbm9afr5) from [TivanChain](https://github.com/lhartikk/TivanChain) for more details about how the blockchain works.
 
 Transactions is a list of unconfirmed transactions. Nothing special about it. In this implementation, the list of transactions contains only the unconfirmed transactions. As soon as a transaction is confirmed, the blockchain removes it from this list.
 
@@ -527,7 +528,7 @@ all code is your original work.
 [![Build Status](https://travis-ci.org/conradoqg/tivancoin.svg?branch=master)](https://travis-ci.org/conradoqg/tivancoin) [![Coverage Status](https://coveralls.io/repos/github/conradoqg/tivancoin/badge.svg?branch=master)](https://coveralls.io/github/conradoqg/tivancoin?branch=master)
 
 ### Motivation
-Cryptocurrencies and smart-contracts on top of a blockchain aren't the most trivial concepts to understand, things like wallets, addresses, block proof-of-work, transactions and their signatures, make more sense when they are in a broad context. Inspired by [naivechain](https://github.com/lhartikk/naivechain), this project is an attempt to provide as concise and simple an implementation of a cryptocurrency as possible.
+Cryptocurrencies and smart-contracts on top of a blockchain aren't the most trivial concepts to understand, things like wallets, addresses, block proof-of-work, transactions and their signatures, make more sense when they are in a broad context. Inspired by [TivanChain](https://github.com/lhartikk/TivanChain), this project is an attempt to provide as concise and simple an implementation of a cryptocurrency as possible.
 
 ### What is cryptocurrency
 [From Wikipedia](https://en.wikipedia.org/wiki/Cryptocurrency) : A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange using cryptography to secure the transactions and to control the creation of additional units of the currency.
@@ -545,7 +546,7 @@ Cryptocurrencies and smart-contracts on top of a blockchain aren't the most triv
 * Addresses creation using a deterministic approach [EdDSA](https://en.wikipedia.org/wiki/EdDSA)
 * Data is persisted to a folder
 
-> Naivechain uses websocket for p2p communication, but it was dropped to simplify the understanding of message exchange. It is relying only on REST communication.
+> TivanChain uses websocket for p2p communication, but it was dropped to simplify the understanding of message exchange. It is relying only on REST communication.
 
 #### Components communication
 ![Components communication](doc/components.png)
@@ -632,7 +633,7 @@ A transaction inside a block is valid if:
 4. The transaction isn't already in the blockchain
 5. All input transactions are unspent in the blockchain.
 
-You can read this [post](https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54#.dttbm9afr5) from [naivechain](https://github.com/lhartikk/naivechain) for more details about how the blockchain works.
+You can read this [post](https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54#.dttbm9afr5) from [TivanChain](https://github.com/lhartikk/TivanChain) for more details about how the blockchain works.
 
 Transactions is a list of unconfirmed transactions. Nothing special about it. In this implementation, the list of transactions contains only the unconfirmed transactions. As soon as a transaction is confirmed, the blockchain removes it from this list.
 
