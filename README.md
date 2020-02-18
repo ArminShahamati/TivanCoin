@@ -77,7 +77,7 @@ It's the starting point to interact with the tivancoin, and every node provides 
 
 From the Swagger UI is possible to access a simple UI to visualize the blockchain and the unconfirmed transactions.
 
-![UI](doc/ui.png)
+![UI](http://www.upsara.com/images/t647973_screen.png)
 
 #### Blockchain
 
