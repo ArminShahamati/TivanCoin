@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/conradoqg/tivancoin.svg?branch=master)](https://travis-ci.org/conradoqg/tivancoin) [![Coverage Status](https://coveralls.io/repos/github/conradoqg/tivancoin/badge.svg?branch=master)](https://coveralls.io/github/conradoqg/tivancoin?branch=master)
 
 ### Motivation
-Cryptocurrencies and smart-contracts on top of a blockchain aren't the most trivial concepts to understand, things like wallets, addresses, block proof-of-work, transactions and their signatures, make more sense when they are in a broad context. Inspired by [TivanChain](https://github.com/lhartikk/TivanChain), this project is an attempt to provide as concise and simple an implementation of a cryptocurrency as possible.
+Cryptocurrencies and smart-contracts on top of a blockchain aren't the most trivial concepts to understand, things like wallets, addresses, block proof-of-work, transactions and their signatures, make more sense when they are in a broad context. Inspired by [TivanChain], this project is an attempt to provide as concise and simple an implementation of a cryptocurrency as possible.
 
 ### What is cryptocurrency
 [From Wikipedia](https://en.wikipedia.org/wiki/Cryptocurrency) : A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange using cryptography to secure the transactions and to control the creation of additional units of the currency.
