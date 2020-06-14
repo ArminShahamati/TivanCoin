@@ -1,6 +1,6 @@
 
 # TivanCoin
-# tivancoin - a cryptocurrency implementation in less than 1500 lines of code
+# TivanCoin - a cryptocurrency implementation
 
 [![Build Status](https://travis-ci.org/conradoqg/tivancoin.svg?branch=master)](https://travis-ci.org/conradoqg/tivancoin) [![Coverage Status](https://coveralls.io/repos/github/conradoqg/tivancoin/badge.svg?branch=master)](https://coveralls.io/github/conradoqg/tivancoin?branch=master)
 
