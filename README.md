@@ -503,7 +503,7 @@ Options:
 
 ```sh
 # Cloning repository
-$ git clone git@github.com:conradoqg/tivancoin.git
+$ git clone https://github.com/TivanDev/TivanCoin.git
 $ cd tivancoin
 $ npm install
 
