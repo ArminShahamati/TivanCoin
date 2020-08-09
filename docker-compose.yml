@@ -8,19 +8,19 @@ services:
       context: ./
       dockerfile: Dockerfile
     ports:
-    - "3001:3001"
+    - "3006:3006"
     volumes:
     - ./:/tivancoin
   node2:
     environment:      
       - HOST=0.0.0.0
       - NAME=2
-      - PEERS=http://node1:3001      
+      - PEERS=http://node1:3006      
     build:
       context: ./
       dockerfile: Dockerfile
     ports:
-    - "3002:3001"
+    - "3002:3006"
     volumes:
     - ./:/tivancoin
     links:
@@ -29,12 +29,12 @@ services:
     environment:
       - HOST=0.0.0.0
       - NAME=3
-      - PEERS=http://node2:3001      
+      - PEERS=http://node2:3006      
     build:
       context: ./
       dockerfile: Dockerfile
     ports:
-    - "3003:3001"
+    - "3003:3006"
     volumes:
     - ./:/tivancoin
     links:
