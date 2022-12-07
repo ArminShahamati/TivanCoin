@@ -15,11 +15,11 @@
     "diagrams": "mmdc -i doc/blockchain.mmd -o doc/blockchain.png -b transparent && mmdc -i doc/components.mmd -o doc/components.png -b transparent"
   },
   "dependencies": {
-    "body-parser": "^1.17.1",
+    "body-parser": "^1.20.1",
     "cli-color": "^1.2.0",
     "elliptic": "^6.4.0",
     "es6-error": "^4.0.2",
-    "express": "^4.16.2",
+    "express": "^4.18.2",
     "fs-extra": "^5.0.0",
     "pug": "^2.0.0-rc.4",
     "ramda": "^0.25.0",
@@ -39,6 +39,6 @@
     "mocha": "^3.3.0",
     "mocha-steps": "^1.0.2",
     "nyc": "^10.3.0",
-    "supertest": "^1.0.0"
+    "supertest": "^6.3.2"
   }
 }
