@@ -39,6 +39,6 @@
     "mocha": "^3.3.0",
     "mocha-steps": "^1.0.2",
     "nyc": "^10.3.0",
-    "supertest": "^1.0.0"
+    "supertest": "^6.3.3"
   }
 }
